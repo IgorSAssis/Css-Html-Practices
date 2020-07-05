@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.icon-list{
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-list li a{
+    float: left;
+    text-align: center;
+    font-size: 36px;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.icon-list li a:hover{
+    background-color: #000;
+}
+
+.active {
+    background-color: #4caf50;
+}
