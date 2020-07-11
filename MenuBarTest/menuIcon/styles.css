@@ -21,7 +21,7 @@
 /*Rotate first bar*/
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 5px);
-    transform: rotate(-45deg) translate(-9px, 5px);
+    transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 /*Fade out the second bar*/
@@ -32,7 +32,7 @@
 /*Rotate last bar*/
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -7px);
-    transform: rotate(45deg) translate(-8px, -7px);
+    transform: rotate(45deg) translate(-8px, -6px);
 }
 
 
