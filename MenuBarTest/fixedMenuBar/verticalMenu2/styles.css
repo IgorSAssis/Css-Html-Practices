@@ -1,0 +1,22 @@
+.verticalMenuBar {
+    position: fixed;
+    width: 120px;
+    background-color: #eee
+}
+
+.verticalMenuBar a {
+    display: block;
+    text-align: center;
+    color: #3322ff;
+    text-decoration-line: none;
+    padding: 14px 16px;
+}
+
+.verticalMenuBar a:hover {
+    color: #3366ff;
+}
+
+.content {
+    position: relative;
+    left: 140px;
+}
