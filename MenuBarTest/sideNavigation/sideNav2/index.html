@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar 2</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="mySideNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <span id="openNavBar" onclick="openNav()">&#9776; Open</span>
+
+    <div id="main" onclick="closeNav()">
+        <h1>Content test</h1>
+
+        <p>This content have a purpose to test the menu bar</p>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

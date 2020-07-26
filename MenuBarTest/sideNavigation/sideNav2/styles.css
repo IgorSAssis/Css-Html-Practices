@@ -1,0 +1,55 @@
+.sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 0;
+    height: 100%;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition-property: width;
+    transition-duration: 0.7s;
+}
+
+.sidenav a {
+    display: block;
+    padding: 8px 8px 8px 32px;
+    color: #c2c2c2;
+    text-decoration-line: none;
+    font-size: 25px;
+    transition-property: width;
+    transition-timing-function: 0.3s;
+}
+
+#openNavBar {
+    display: block;
+    cursor:pointer;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left 0.8s;
+    padding: 20px;;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
