@@ -1,0 +1,25 @@
+.bottom-nav {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #eee;
+    overflow: hidden;
+}
+
+.bottom-nav a {
+    float: left;
+    display: block;
+    padding: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.bottom-nav a:hover {
+    background-color: #ddd;
+}
+
+.bottom-nav a.active {
+    color: white;
+    background-color: #4CAF50;
+}
