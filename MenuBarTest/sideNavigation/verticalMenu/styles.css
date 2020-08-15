@@ -1,0 +1,23 @@
+.menu {
+    width: 200px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.menu a {
+    background-color: #eee;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu a:hover {
+    background: #ccc;
+}
+
+
+.menu a.active {
+    background-color: green;
+    color: white;
+}
